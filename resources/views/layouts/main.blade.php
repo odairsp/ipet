@@ -15,22 +15,20 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-light d-flex justify-content-end">
-            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+        <nav id="navbar" class="navbar navbar-dark navbar-expand-lg bg-primary">
+            <a class="navbar-brand text-white" href="#">Offcanvas navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item " >
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link " href="#">Link</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
+                    
                 </ul>
 
             </div>
